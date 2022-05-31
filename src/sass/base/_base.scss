@@ -1,0 +1,43 @@
+html {
+  font-size: 13px;
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+b {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-text;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+$content-width: 1440px;
+$tablet-width: 1279px;
+$mobile-big-width: 414px;
+$mobile-small-width: 767px;

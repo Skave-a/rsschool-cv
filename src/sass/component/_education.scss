@@ -1,0 +1,82 @@
+.education {
+  background-color: $color-background-education;
+  height: auto;
+}
+
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width:$tablet-width) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.resume__items::before {
+  content: '';
+  background-color: #304CFD;
+  box-shadow: 0 0 0 0.2rem rgba(48, 76, 253, 25%);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.resume__activity {
+  display: flex;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+
+.resume__img {
+  margin-right: 0.5rem;
+}
+
+.resume__place {
+  position: relative;
+  top: -0.7rem;
+  margin-left: 1.2rem;
+  color: #10162f;
+}
+
+.resume__years {
+  margin-left: 1.8rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  color: #931111;
+  font-weight: 600;
+}
+
+.resume__description {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.resume__items {
+  border-left-color: $color-background;
+  border-left-width: 0.1rem;
+  border-left-style: solid;
+  padding-bottom: 2rem;
+}
+
+.resume__items.last {
+  border: none;
+  padding-bottom: 2rem;
+}
+
+.resume__education {
+  width: 62%;
+  margin-bottom: 2rem;
+}
+
+.education__caption {
+  font-size: 3rem;
+  color: #10162f;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.resume__caption {
+  color: #10162f;
+}
