@@ -1,2 +1,2 @@
-https://NatalyaPolyakova.github.io/rsschool-cv/cv
-https://NatalyaPolyakova.github.io/rsschool-cv
+https://Skave-a.github.io/rsschool-cv/cv
+https://skave-a.github.io/rsschool-cv
