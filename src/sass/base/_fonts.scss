@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "MerriweatherRegular";
+  src: url("../fonts/MerriweatherRegular/MerriweatherRegular.eot");
+  src: url("../fonts/MerriweatherRegular/MerriweatherRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MerriweatherRegular/MerriweatherRegular.woff") format("woff"),
+    url("../fonts/MerriweatherRegular/MerriweatherRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MerriweatherBold";
+  src: url("../fonts/MerriweatherBold/MerriweatherBold.eot");
+  src: url("../fonts/MerriweatherBold/MerriweatherBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MerriweatherBold/MerriweatherBold.woff") format("woff"),
+    url("../fonts/MerriweatherBold/MerriweatherBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("../fonts/InterRegular/InterRegular.eot");
+  src: url("../fonts/InterRegular/InterRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InterRegular/InterRegular.woff") format("woff"),
+    url("../fonts/InterRegular/InterRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AdineKirnbergRegular";
+  src: url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.eot");
+  src: url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.woff") format("woff"),
+    url("../fonts/AdineKirnbergRegular/AdineKirnbergRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@import url('http://fonts.cdnfonts.com/css/adine-kirnberg');
+@import url('http://fonts.cdnfonts.com/css/apercu');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');

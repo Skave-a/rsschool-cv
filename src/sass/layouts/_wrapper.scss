@@ -1,0 +1,12 @@
+.wrapper {
+  margin: 0 auto;
+  width: 75rem;
+
+  @media (max-width:$tablet-width) {
+    max-width: 50rem;
+  }
+
+  @media (max-width:$mobile-small-width) {
+    max-width: 30rem;
+  }
+}
