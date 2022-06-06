@@ -1,0 +1,39 @@
+.footer {
+  background-color: $color-background-about;
+  height: auto;
+}
+
+.footer__p {
+  font-size: 1rem;
+  text-align: right;
+}
+
+.wrapper.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.footer__img {
+  height: 3rem;
+}
+
+.footer__img.cat {
+  margin-left: 6rem;
+  width: 3rem;
+  background-color: #000;
+  display: block;
+  mask-image: url('../img/icons/gith.svg');
+  mask-size: cover;
+
+  @media (max-width:$mobile-small-width) {
+    margin-left: 0rem;
+  }
+}
+
+.footer__img.cat:hover {
+  background-color: $color-active-link;
+  transition: all 0.3s;
+}
