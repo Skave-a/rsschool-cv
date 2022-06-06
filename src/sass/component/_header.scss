@@ -1,0 +1,28 @@
+header {
+
+  background-color: $color-background-about;
+}
+
+.wrapper.header {
+  height: 8rem;
+  background-color: #fff0e5;
+}
+
+.nav__list {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.nav__item {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.nav__link {
+  color: $color-text-nav;
+}
+
+.nav__link:hover {
+  color: $color-background-portfolio;
+  transition: all 0.4s;
+}

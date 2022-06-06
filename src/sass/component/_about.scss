@@ -1,0 +1,107 @@
+.about {
+  background-color: $color-background-about;
+  height: auto;
+}
+
+.wrapper.about {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (max-width:$tablet-width) {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.about__img {
+  width: 70%;
+  margin-left: 6rem;
+  margin-bottom: 5rem;
+  box-shadow: -3rem 3rem 0px -1rem rgba(0, 0, 0, 0.3);
+  border: solid 0.01rem black;
+
+  @media (max-width:$tablet-width) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.about__block-1 {
+  width: 50%;
+}
+
+
+.about__block-2 {
+  width: 50%;
+
+  @media (max-width:$tablet-width) {
+    width: 90%;
+  }
+}
+
+.about__p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.about__p-1 {
+  margin-bottom: 1rem;
+  font-family: 'Helvetica 35 Thin', sans-serif;
+}
+
+.contact__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.contact__img {
+  height: 2rem;
+}
+
+.contact__item {
+  padding: 1rem;
+  border: solid black 0.02rem;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.about__name {
+  font-size: 5rem;
+  text-align: right;
+  color: #4c4c4c;
+  font-family: 'Marck Script', cursive;
+  font-family: 'Adine Kirnberg', sans-serif;
+}
+
+.contact__svg {
+  width: 2rem;
+  height: 2rem;
+  background-color: #000;
+  display: block;
+  mask-size: cover;
+}
+
+.contact__svg.gith {
+  mask-image: url('../img/icons/gith.svg');
+}
+
+.contact__svg.mail {
+  mask-image: url('../img/icons/mail.svg');
+}
+
+.contact__svg.inst {
+  mask-image: url('../img/icons/instagram2.svg');
+}
+
+.contact__svg.tel {
+  mask-image: url('../img/icons/telegram2.svg');
+}
+
+.contact__svg:hover {
+  background-color: $color-active-link;
+  transition: all 0.3s;
+}
