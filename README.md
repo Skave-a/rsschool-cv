@@ -1,2 +1,2 @@
 https://skave-a.github.io/rsschool-cv/cv
-https://skave-a.github.io/rsschool-cv
+https://skave-a.github.io/rsschool-cv/
