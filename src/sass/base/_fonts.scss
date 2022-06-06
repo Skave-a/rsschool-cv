@@ -38,6 +38,17 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "MarckScriptRegular";
+  src: url("../fonts/MarckScriptRegular/MarckScriptRegular.eot");
+  src: url("../fonts/MarckScriptRegular/MarckScriptRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MarckScriptRegular/MarckScriptRegular.woff") format("woff"),
+    url("../fonts/MarckScriptRegular/MarckScriptRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
 @import url('http://fonts.cdnfonts.com/css/adine-kirnberg');
 @import url('http://fonts.cdnfonts.com/css/apercu');
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');

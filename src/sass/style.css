@@ -5,6 +5,7 @@
 @import url("http://fonts.cdnfonts.com/css/adine-kirnberg");
 @import url("http://fonts.cdnfonts.com/css/apercu");
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 html,
 body,
 div,
@@ -532,12 +533,21 @@ h6 {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "MarckScriptRegular";
+  src: url("../fonts/MarckScriptRegular/MarckScriptRegular.eot");
+  src: url("../fonts/MarckScriptRegular/MarckScriptRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MarckScriptRegular/MarckScriptRegular.woff") format("woff"), url("../fonts/MarckScriptRegular/MarckScriptRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
 header {
   background-color: #fff0e5;
 }
 
 .wrapper.header {
   height: 8rem;
+  background-color: #fff0e5;
 }
 
 .nav__list {
@@ -654,10 +664,10 @@ header {
 }
 
 .about__name {
-  font-family: 'Adine Kirnberg', sans-serif;
   font-size: 5rem;
   text-align: right;
   color: #4c4c4c;
+  font-family: 'Marck Script', cursive;
   font-family: 'Adine Kirnberg', sans-serif;
 }
 
@@ -825,6 +835,7 @@ header {
 @media (max-width: 1279px) {
   .skill__img {
     margin-bottom: 2rem;
+    height: 7rem;
   }
 }
 
@@ -1029,7 +1040,7 @@ header {
 
 @media (max-width: 767px) {
   .code__js {
-    margin-left: 2rem;
+    margin-left: 1%;
   }
 }
 
